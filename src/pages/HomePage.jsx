@@ -1,7 +1,11 @@
+import React from "react";
+import GridComponent from "../components/GridComponent";
+import FilmesLista from "../components/ListaDeFilme";
+
 function HomePage() {
   return (
-    <div className="HomePage">
-      <p>HomePage</p>
+    <div>
+      <GridComponent filmes={FilmesLista} />
     </div>
   );
 }

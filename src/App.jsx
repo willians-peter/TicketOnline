@@ -7,7 +7,8 @@ import MovieDetailPage from "./pages/MovieDetailPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import NavigationBar from "./organisms/NavigationBar";
-import Button  from "./atoms/Button";
+import Button from "./atoms/Button";
+import GridComponent from "./components/GridComponent";
 import "./App.css";
 
 function App() {
@@ -24,12 +25,10 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+    
+     
     </div>
   );
 }
 
 export default App;
-
-
-
-

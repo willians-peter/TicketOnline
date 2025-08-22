@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.cartaz {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.info {
+  padding: 16px;
+}
+
+.info p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.sinopse {
+  text-align: justify;
+}
+
+.botao {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #3e8e41;
+}
