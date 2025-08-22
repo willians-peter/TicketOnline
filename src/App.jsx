@@ -6,6 +6,8 @@ import MoviesPage from "./pages/MoviesPage";
 import MovieDetailPage from "./pages/MovieDetailPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import NavigationBar from "./organisms/NavigationBar";
+import Button  from "./atoms/Button";
 import "./App.css";
 
 function App() {
@@ -13,7 +15,8 @@ function App() {
 
   console.log({ theme });
   return (
-    <div className="App">
+    <div className={theme === "dark" ? "dark-mode" : "light-mode"}>
+      <NavigationBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/movies" element={<MoviesPage />} />
@@ -26,3 +29,7 @@ function App() {
 }
 
 export default App;
+
+
+
+

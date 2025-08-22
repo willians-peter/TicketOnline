@@ -1,0 +1,68 @@
+.container {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.title a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.logo {
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+}
+
+.navList {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 4px;
+}
+
+.navList a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.navList a:hover,
+.navList a:focus {
+  text-decoration: underline;
+}
+
+.navList a.active {
+  color: rgb(206, 202, 196);
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: brown;
+  color: antiquewhite;
+}

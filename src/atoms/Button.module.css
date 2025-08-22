@@ -1,0 +1,17 @@
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #dfc283 !important;
+  color: white;
+}
+
+.secondary {
+  background-color: #18160a !important;
+  color: rgb(75, 74, 74);
+}
