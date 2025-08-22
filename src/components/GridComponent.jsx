@@ -1,8 +1,7 @@
+import React from 'react';
 import styles from "./GridComponent.module.css";
-import React from "react";
 import FilmeComponent from "./FilmeComponent";
 import FilmesLista from "./ListaDeFilme";
-
 
 function GridComponent() {
   return (

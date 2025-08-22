@@ -1,9 +1,7 @@
+import React from 'react';
 import styles from "./FilmeComponent.module.css";
-import FilmesLista from "./ListaDeFilme";
 
-function FilmeComponent() {
-  const filme = FilmesLista[0]; // exemplo de como acessar o primeiro filme da lista
-
+function FilmeComponent({ filme }) {
   return (
     <div className={styles.container}>
       <img src={filme.cartaz} alt={filme.nome} className={styles.cartaz} />
