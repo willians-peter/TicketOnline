@@ -8,6 +8,9 @@ import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import NavigationBar from "./organisms/NavigationBar";
 import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 
 function App() {
   const { theme } = useContext(AppContext);
@@ -15,6 +18,7 @@ function App() {
 
   return (
     <div className={theme === "dark" ? "dark-mode" : "light-mode"}>
+      <Header />
       <NavigationBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -23,6 +27,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
