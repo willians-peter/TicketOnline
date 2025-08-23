@@ -39,7 +39,7 @@
 
 .navList a {
   text-decoration: none;
-  color: antiquewhite;
+  color: rgb(97, 63, 18);
 }
 
 .navList a:hover,
@@ -63,6 +63,6 @@
 }
 
 .light {
-  background-color: brown;
+  background-color: rgb(214, 211, 211);
   color: antiquewhite;
 }

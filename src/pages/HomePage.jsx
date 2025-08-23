@@ -1,11 +1,11 @@
 import React from "react";
-import GridComponent from "../components/GridComponent";
-import FilmesLista from "../components/ListaDeFilme";
+import Fachada from "../assets/fachada_cinema.jpg";
+import MiniHome from "../molecules/miniHome";
 
 function HomePage() {
   return (
-    <div>
-      <GridComponent filmes={FilmesLista} />
+    <div className="ContactPage">
+      <MiniHome />
     </div>
   );
 }

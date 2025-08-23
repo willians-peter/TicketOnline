@@ -1,9 +1,16 @@
+import React from "react";
+import GridComponent from "../components/GridComponent";
+import FilmesLista from "../components/ListaDeFilme";
+
 function MoviePage() {
   return (
-    <div className="ContactPage">
-      <p>MoviePage</p>
+    <div>
+      <GridComponent filmes={FilmesLista} />
     </div>
   );
 }
 
 export default MoviePage;
+
+
+
