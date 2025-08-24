@@ -27,7 +27,7 @@
 }
 
 .botao {
-  background-color: #4CAF50;
+  background-color: orange;
   color: #fff;
   padding: 8px 16px;
   border: none;
@@ -36,5 +36,5 @@
 }
 
 .botao:hover {
-  background-color: #3e8e41;
+  background-color: antiquewhite;
 }

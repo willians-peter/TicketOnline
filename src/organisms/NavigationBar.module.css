@@ -10,21 +10,23 @@
   gap: 4px;
   width: 100%;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .title h1 {
   margin: 0;
-  font-size: 16px;
+  gap: 10px;
+  font-size: 64px;
 }
 
 .title a {
-  color: antiquewhite;
+  color: rgb(116, 95, 68);
   text-decoration: none;
 }
 
 .logo {
-  width: 16px;
-  height: 16px;
+  width: 64px;
+  height: 64px;
   border-radius: 5px;
 }
 
@@ -35,20 +37,7 @@
   list-style: none;
   display: flex;
   gap: 4px;
-}
-
-.navList a {
-  text-decoration: none;
-  color: rgb(97, 63, 18);
-}
-
-.navList a:hover,
-.navList a:focus {
-  text-decoration: underline;
-}
-
-.navList a.active {
-  color: rgb(206, 202, 196);
+  margin-left: auto;
 }
 
 .buttonContainer {
@@ -65,4 +54,31 @@
 .light {
   background-color: rgb(214, 211, 211);
   color: antiquewhite;
+}
+
+.navList a {
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navList a:hover,
+.navList a:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+.navList a.active {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgb(153, 138, 53);
+}
+
+.dark .navList a {
+  color: #fff;
+}
+
+.light .navList a {
+  color: #333;
 }
